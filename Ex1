@@ -1,0 +1,7 @@
+public class Ex1 {
+    public static void main(String[] args) {
+        String word = "Klasa StringService";
+        System.out.println(word.charAt(0));
+//        System.out.println(word.substring(0,1));
+    }
+}
