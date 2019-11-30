@@ -1,0 +1,9 @@
+public class Ex4 {
+    public static void main(String[] args) {
+
+        String one= "Klasa to jest WSzystko";
+        String two= "Klasa to jest wszystko";
+
+        System.out.println(one.equalsIgnoreCase(two));
+    }
+}
