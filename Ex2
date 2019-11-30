@@ -1,0 +1,9 @@
+public class Ex2 {
+    public static void main(String[] args) {
+        String one= "Klasa to jest wszystko";
+        String two= "Klasa to jest wszystko";
+
+        System.out.println(one.equals(two));
+
+    }
+}
