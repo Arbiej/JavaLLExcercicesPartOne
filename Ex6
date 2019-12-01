@@ -1,0 +1,7 @@
+public class Ex6 {
+    public static void main(String[] args) {
+         String phoneNumber=" 675-908-897";
+
+        System.out.println(phoneNumber.replace("-", ""));
+    }
+}
