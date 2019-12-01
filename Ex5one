@@ -1,0 +1,9 @@
+public class Ex5one {
+    public static void main(String[] args) {
+         String name="Jan";
+         String  givenname1="Jan" ;
+         String  givenname2="Janusz" ;
+//         String givenname={"Jan","Janusz"};?
+        System.out.println(name.equalsIgnoreCase(givenname1)|| name.equalsIgnoreCase(givenname2));
+    }
+}
