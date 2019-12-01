@@ -1,0 +1,7 @@
+public class Ex7 {
+    public static void main(String[] args) {
+        String sentence = ".      To jest przekazany tekst.       ";
+
+        System.out.println(sentence.replaceAll("\\s{2,}", ""));
+    }
+}
