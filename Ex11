@@ -1,0 +1,22 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+class Ex11 {
+    static int givenNumber;
+
+    static boolean isEven(int givenNumber) {
+        return givenNumber % 2 == 0;
+
+
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Give the number");
+        int givenNumber = scanner.nextInt();
+        System.out.println("You gave the even number: " + isEven(givenNumber));
+
+    }
+
+}
