@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Ex13 {
+    public static void main(String[] args) {
+        System.out.println("Type the number");
+
+        Scanner numberTyped = new Scanner(System.in);
+        int givenNumber = numberTyped.nextInt();
+        Object givenValue = new Object();
+
+        if (givenNumber != 0) {
+            System.out.println("The number is other than 0 and it not null");
+        } else if (givenValue == (Integer) null) {
+
+            System.out.println("Given number is null");
+        } else {
+            System.out.println("The number is 0");
+        }
+    }
+}
