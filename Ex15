@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Ex15 {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        String password;
+        do {
+            System.out.println("Type the password with at least 5 marks");
+            password=scanner.nextLine();
+        }while(password.isEmpty() || password.length()<5);
+        System.out.println("Bravo you fulfilled our criteria ");
+    }
+}
