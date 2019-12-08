@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class Ex14 {
+    public static void main(String[] args) {
+        ArrayList numbers = new ArrayList();
+
+        for (int i = 0; i <= 100; i++) {
+
+            if (i % 2 == 0) {
+                numbers.add(i);
+
+
+                if (i == 26) {
+                    numbers.remove(5);
+                    numbers.remove(7);
+                    System.out.println(numbers);
+                    break;
+
+
+                }
+            }
+        }
+    }
+}
